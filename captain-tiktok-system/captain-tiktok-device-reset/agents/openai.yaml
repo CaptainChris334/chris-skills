@@ -1,0 +1,4 @@
+interface:
+  display_name: "手机设备初始化"
+  short_description: "准备设备并按需指导刷机"
+  default_prompt: "使用 $captain-tiktok-device-reset 帮我准备 iPhone，或在我询问时指导刷机。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "电脑工具准备"
+  short_description: "配置粉猫、中转、Chrome和NotebookLM"
+  default_prompt: "使用 $captain-tiktok-computer-prep 带我完成电脑端软件和网络准备。"

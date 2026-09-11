@@ -1,0 +1,4 @@
+interface:
+  display_name: "TikTok Skill 治理"
+  short_description: "审查规则、来源、测试和版本"
+  default_prompt: "使用 $captain-tiktok-governance 审查这套 TikTok Skill 的结构和变更。"

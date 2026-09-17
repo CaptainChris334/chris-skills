@@ -1,4 +1,4 @@
 interface:
   display_name: "船长 TikTok 总入口"
-  short_description: "识别阶段并路由网络与运营问题"
+  short_description: "按准备工作、账号篇、店铺篇带学员推进"
   default_prompt: "使用 $captain-tiktok 帮我判断当前 TikTok 问题并带我完成下一步。"

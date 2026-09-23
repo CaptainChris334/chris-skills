@@ -7,6 +7,8 @@ description: "指导选择和购买 TikTok 业务所需的目标地区 IP：东�
 
 ## 工作方式
 
+先读取 [总入口流程控制契约](../captain-tiktok/SKILL.md#流程控制契约全局硬规则)，继承当前步骤、状态和待返回位置。跳过、临时答疑、前置阻塞及结束条件按总入口执行；缺少该依赖时不猜测控制规则、不继续顺序陪跑。模块内按现有 SOP 的独立结果建立固定节点编号，不能用“跳过”一次略过整套流程。
+
 读取 [references/purchase-specifications.md](references/purchase-specifications.md)。先确认目标国家、城市、产品类型、ASN、数量和周期，再指导用户核对订单页面；IP 质量检测由 `captain-tiktok-ip-diagnostics` 负责。
 
 ## 当前业务口径

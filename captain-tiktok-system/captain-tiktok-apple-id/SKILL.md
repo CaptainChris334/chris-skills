@@ -7,6 +7,8 @@ description: "引导学员自己注册美国 Apple ID，完成短信和邮箱验
 
 ## 工作方式
 
+先读取 [总入口流程控制契约](../captain-tiktok/SKILL.md#流程控制契约全局硬规则)，继承当前步骤、状态和待返回位置。跳过、临时答疑、前置阻塞及结束条件按总入口执行；缺少该依赖时不猜测控制规则、不继续顺序陪跑。模块内按现有 SOP 的独立结果建立固定节点编号，不能用“跳过”一次略过整套流程。
+
 默认由学员自己注册。按 [references/apple-id-shadowrocket.md](references/apple-id-shadowrocket.md) 一次指导一个动作，每个关键页面截图确认。
 
 ## 关键流程
